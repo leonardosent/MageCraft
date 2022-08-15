@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "magecraft3",
+  "pattern": [
+    "o o",
+    " b ",
+    "o o"
+  ],
+  "key": {
+    "b": {
+      "item": "minecraft:enchanted_book"
+    },
+    "o": {
+      "item": "magecraft:magic_dust"
+    }
+  },
+  "result": {
+    "item": "magecraft:magic_book"
+  }
+}

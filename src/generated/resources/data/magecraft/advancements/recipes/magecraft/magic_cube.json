@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "magecraft:magic_cube"
+    ]
+  },
+  "criteria": {
+    "magic": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "magecraft:magic_dust"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "magecraft:magic_cube"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "magic",
+      "has_the_recipe"
+    ]
+  ]
+}

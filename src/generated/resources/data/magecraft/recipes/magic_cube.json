@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "magecraft2",
+  "pattern": [
+    "ouo",
+    "udu",
+    "ouo"
+  ],
+  "key": {
+    "o": {
+      "item": "minecraft:obsidian"
+    },
+    "u": {
+      "item": "minecraft:diamond"
+    },
+    "d": {
+      "item": "magecraft:magic_dust"
+    }
+  },
+  "result": {
+    "item": "magecraft:magic_cube"
+  }
+}
